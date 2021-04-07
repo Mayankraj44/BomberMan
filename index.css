@@ -1,0 +1,32 @@
+/* body{
+    display:flex;
+    justify-content: center;
+} */
+
+#main{
+   
+    display: grid;
+  grid-gap: 1px;
+  height:330px;
+  width:330px;
+  top:100px;
+  left:300px;
+  grid-template-columns: repeat(9, 1fr);
+  
+    
+}
+#main div{
+    height: 50px;
+    width: 50px;
+    font-size: 50px;
+    background-color: azure;
+    border: 2px black solid;
+    text-align: center;
+    
+}
+#contents{
+    position:relative;
+    top:200px;
+    left :200px;
+    font-size: 20px
+}
